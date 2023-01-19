@@ -10,6 +10,6 @@ import java.util.List;
         void update(Seller obj);
         void deleteById(Integer id);
         Seller findById (Integer id);
-        List<Seller> indAll();
+        List<Seller> findAll();
     }
 
