@@ -11,5 +11,6 @@ import java.util.List;
         void deleteById(Integer id);
         Seller findById (Integer id);
         List<Seller> findAll();
+        List<Seller> findByDepartment(Department department);
     }
 
